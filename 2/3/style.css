@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: white;
+    color:black;
+}
+.content{
+}
+.header{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    background-color: rgb(27, 48, 76);
+    padding-left: 10px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-right: 10px;
+}
+.header-name{
+    position:inline-block;
+}
+.header-nav{
+    position:absolute;
+    right:15px;
+}
+.logo{
+    color:white;
+    font-size:24px;
+    text-decoration: none;
+}
+.menu-item{
+    position:relative;
+    display:inline-block;
+    padding-left:5px;
+    margin-top:3px;
+}
+.menu-link{
+    color:rgb(216, 215, 215);
+    text-decoration: none;
+}
+.welcome{
+    background-color: rgb(118, 120, 121);
+    text-align: center;
+    margin-top:5px;
+    padding:50px;
+    color:white;
+    font-size:30px;
+}
+.container-text{
+    margin:10px;
+    text-align: center;
+    font-size:26px;
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width:100%;
+    border:1px;
+    
+}
+.container-in{
+    border: 1px solid rgb(137, 137, 137);
+    border-radius: 5px;
+    width: 23%;
+    height:max-content;
+}
+.container-in-text{
+    padding:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color:rgb(68, 67, 66);
+}
+.price{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    color:rgb(56, 52, 47);
+}
+button{
+    background-color: rgb(36, 122, 184);
+    color: aliceblue;
+    border: 0;
+    padding: 7px;
+    border-radius: 5px;
+}
+.items{
+    border-radius: 3px;
+    width:100%;
+    height: 60%;
+}
+.footer{
+    margin-top:30px;
+    background-color: rgb(38, 37, 37);
+    color:aliceblue;
+    text-align: center;
+    padding:40px;
+    font-size:18px;
+}
